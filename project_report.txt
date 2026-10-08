@@ -1,0 +1,45 @@
+STUDENT PERFORMANCE PREDICTION SYSTEM
+B.Tech CSE / AI-ML 1st Year Mini Project
+
+1. ABSTRACT
+This project uses supervised machine learning to predict a student's expected
+final marks from academic and practice-related features. A Decision Tree
+Regressor is trained on a sample dataset and a simple Tkinter GUI is provided
+for entering new student information.
+
+2. OBJECTIVES
+- Understand the basic machine learning workflow.
+- Perform data preparation and train/test splitting.
+- Train a supervised learning model.
+- Predict student performance.
+- Provide a simple graphical interface.
+
+3. INPUT FEATURES
+- Study hours per day
+- Attendance percentage
+- Previous marks
+- Assignment score
+- Practice hours per day
+
+4. OUTPUT
+The system predicts expected marks out of 100 and gives a performance category:
+Excellent, Good, Average, or Needs Improvement.
+
+5. ALGORITHM
+Decision Tree Regression is used because it is simple to understand and works
+well for demonstrating relationships between input features and a numerical
+target.
+
+6. TOOLS
+Python, Pandas, Scikit-learn and Tkinter.
+
+7. CONCLUSION
+The project demonstrates the complete basic machine learning pipeline from data
+collection and preprocessing to model training, evaluation and prediction.
+It is suitable as a first-year educational mini-project.
+
+8. FUTURE SCOPE
+- Use a larger real-world dataset.
+- Add login and database support.
+- Compare multiple ML algorithms.
+- Add charts and a web interface.
